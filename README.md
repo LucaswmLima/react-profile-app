@@ -21,7 +21,7 @@
     <a href="https://github.com/lucaswmlima/react-profile-app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucaswmlima/react-profile-app">View Demo</a>
+    <a href="https://react-redux-profile-app.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/lucaswmlima/react-profile-app/issues">Report Bug</a>
     ·
@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://react-redux-profile-app.vercel.app)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -196,7 +196,7 @@ Lucas William Martins Lima - lucaswilliamml@gmail.com - [LinkedIn][linkedin-url]
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/https://www.linkedin.com/in/lucaswmlima/
 [portfolio-url]: https://portfolio-lucaswilliam.vercel.app/#projects
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/LucaswmLima/react-profile-app/blob/main/client/src/assets/readme-images/1.jpg?raw=true
 [HTML]: https://img.shields.io/badge/HTML-E44D26?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 [CSS]: https://img.shields.io/badge/CSS-2862E9?style=for-the-badge&logo=css3&logoColor=white
