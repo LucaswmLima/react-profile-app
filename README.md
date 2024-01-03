@@ -84,12 +84,11 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Downloading and installing Node.js and npm
 * npm
   ```sh
   npm install npm@latest -g
@@ -97,18 +96,17 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/lucaswmlima/react-profile-app.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Install the following packages
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm install redux
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,9 +116,17 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Run the API
+   ```js
+   cd mini-api
+   node index.js
+   ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. Run the Client
+   ```js
+   cd client
+   npm start
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,10 +135,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Back-end
+- [x] Front-end
+- [x] Redux implementation
+- [x] Update Account
+- [ ] Delete Account
 
 See the [open issues](https://github.com/lucaswmlima/react-profile-app/issues) for a full list of proposed features (and known issues).
 
@@ -170,24 +177,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - lucaswilliamml@gmail.com
-
-Project Link: [https://github.com/lucaswmlima/react-profile-app](https://github.com/lucaswmlima/react-profile-app)
+Lucas William Martins Lima - lucaswilliamml@gmail.com - [LinkedIn][linkedin-url] - [Portfolio][portfolio-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -203,6 +195,7 @@ Project Link: [https://github.com/lucaswmlima/react-profile-app](https://github.
 [license-url]: https://github.com/lucaswmlima/react-profile-app/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/https://www.linkedin.com/in/lucaswmlima/
+[portfolio-url]: https://portfolio-lucaswilliam.vercel.app/#projects
 [product-screenshot]: images/screenshot.png
 [HTML]: https://img.shields.io/badge/HTML-E44D26?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/pt-BR/docs/Web/HTML
