@@ -17,7 +17,7 @@ export const userSlice = createSlice({
     },
     updateError:(state)=>{
       state.error = true
-      state.pending = false
+      state.pending = false 
     }
   },
 });
